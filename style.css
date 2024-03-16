@@ -1,0 +1,78 @@
+/* RESET */
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    /* background-color: #F9D9EB; */
+    background-color: #F8E4EF;
+}
+
+/* POUR TOUS LE CONTENUS */
+main{
+    min-height:100vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* POUR LA DIV CONTAINER OU IL A LE CONVERTISSEUR  */
+.container{
+    width:500px;
+    background-color: #F1F1F1;
+    /* background-color: white; */
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    padding:20px;
+    box-shadow: 0 5px 5px rgba(0,0,0,.3);
+    border-radius :15px;
+    height:200px;
+    
+}
+
+/* POUR LE TITRE  */
+h1{
+    color: #F467C2;
+    margin-bottom: 20px;;
+}
+
+/* INPUT DU GROUPE */
+.input-groupe{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width:500px;
+}
+
+/* POUR LE CHAMP DE TEXTE */
+input{
+    height:25px;
+    text-align:center;
+}
+
+/* POUR LA DIV CONTENANT TOUTES LES UNITES  */
+.select-groupe{
+    margin-top: 20px;;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    width:500px;
+}
+
+/* STYLE POUR LES DEUX DIV AYANT L'ID SUIVANT  */
+#unite, #resultatUnite{
+    color: #E067F4;
+    /* color:#7B0E8F ; */
+    font-weight: bolder;
+    padding:7px;
+}
+
+

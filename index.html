@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Convertisseur</title>
+</head>
+<body>
+  
+    <main>
+
+        <div class="container">
+          <!-- titre de la page -->
+          <h1>Convertisseur</h1>
+          
+          <!-- LES INPUT - TOUS LES CHAMPS DE TEXTE -->
+          <div class="input-groupe">
+              <input type="text" name="convertir" id="convertir" placeholder="Indiqué une quantité ">  <span> =  </span> 
+              <input type="text" name="resultat" id="resultat" placeholder="Résultat ">
+          </div>
+          
+          <!-- TOUTES LES UNITES  -->
+          <div class="select-groupe">
+                <select name="unite" id="unite">
+                    <option value="Metre">Metre</option>
+                    <option value="Kilometre">Kilometre</option>
+                    <option value="Centimetre">Centimetre</option>
+                </select>
+  
+                <select name="resultatUnite" id="resultatUnite">
+                    <option value="Metre">Metre</option>
+                    <option value="Kilometre">Kilometre</option>
+                    <option value="Centimetre">Centimetre</option>
+                </select>
+          </div>
+        </div>
+
+    </main>
+
+
+
+  <script src="app.js"></script>
+</body>
+</html>
