@@ -8,7 +8,8 @@
 
 body{
     /* background-color: #F9D9EB; */
-    background-color: #F8E4EF;
+    /* background-color: #F8E4EF; */
+    background-color: #E8EFFC;
 }
 
 /* POUR TOUS LE CONTENUS */
@@ -39,7 +40,7 @@ main{
 
 /* POUR LE TITRE  */
 h1{
-    color: #F467C2;
+    color: #3F4574;
     margin-bottom: 20px;;
 }
 
@@ -69,7 +70,7 @@ input{
 
 /* STYLE POUR LES DEUX DIV AYANT L'ID SUIVANT  */
 #unite, #resultatUnite{
-    color: #E067F4;
+    color: #3F4574;
     /* color:#7B0E8F ; */
     font-weight: bolder;
     padding:7px;
