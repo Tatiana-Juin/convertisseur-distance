@@ -17,7 +17,7 @@ function funcResultat(){
     
     // CONVERSION POUR LES METTRE 
     if (valeurUniteConv==="Metre" && valeurUniteResult==="Kilometre"){
-        resultat.value = Number(input.value) * 0.01;
+        resultat.value = Number(input.value) * 0.001;
         
     }else if(valeurUniteConv==="Metre" && valeurUniteResult==="Centimetre"){
         resultat.value = Number(input.value) * 100;
@@ -39,12 +39,12 @@ function funcResultat(){
          
     }
 
-    // CONVERSION POUR LES KILOMETRE 
+    // CONVERSION POUR LES CENTIMETRE 
     if (valeurUniteConv==="Centimetre" && valeurUniteResult==="Metre"){
-        resultat.value = Number(input.value) * 0.00001;
+        resultat.value = Number(input.value) * 0.01 ;
         
     }else if(valeurUniteConv==="Centimetre" && valeurUniteResult==="Kilometre"){
-        resultat.value = Number(input.value) * 0.01;
+        resultat.value = Number(input.value) *  0.00001 ;
        
     } else if(valeurUniteConv==="Centimetre" && valeurUniteConv==="Centimetre"){
         resultat.value = input.value;
